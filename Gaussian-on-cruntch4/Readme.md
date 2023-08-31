@@ -86,4 +86,9 @@ sbatch gaussian-g16.sub
 
 You can monitor the job by using the `squeue` command 
 
+## Tasks 
 
+- Download the [`Tyrosine_b3lyp_cc-pvdz_opt.gjf`](https://github.com/valsson-group/UNT-Chem5660-Fall2023/blob/main/Gaussian-on-cruntch4/Tyrosine_b3lyp_cc-pvdz_opt.gjf) file onto your workstation and upload it to a cruntch4 using MobaXterm.
+- Submit this file for calculation.
+- Download the output files to your workstations and look at the HOMO and LUMO using GaussView.
+- Now do a calculation for L-Tryptophan where you should get the initial coordinates by using a smiles string from Pubchem. Here you need to copy and edit the previously used input file. 
